@@ -49,3 +49,19 @@ git push -u origin main
 - **Security**: PIN protection for staff access with visual feedback.
 - **Kitchen Display**: Dedicated KDS view for back-of-house (synced via DB).
 - **Supabase Integration**: Real-time database for products, users, customers, orders, and screens.
+
+## ☁️ Deploy to Vercel
+
+To publish this app to the internet using Vercel:
+
+1.  **Push to GitHub**: Ensure you have pushed your code to GitHub (see step 1 above).
+2.  **Login to Vercel**: Go to [vercel.com](https://vercel.com) and sign up/login with GitHub.
+3.  **Import Project**:
+    *   Click "Add New..." -> "Project".
+    *   Select your `cosmo-pos` repository.
+4.  **Configure Project**:
+    *   **Framework Preset**: Vercel should auto-detect "Create React App".
+    *   **Build Command**: `npm run build` (default).
+    *   **Output Directory**: `build` (default).
+5.  **Deploy**: Click "Deploy".
+6.  **Done**: Your app is now live!
