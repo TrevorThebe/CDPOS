@@ -1,0 +1,5 @@
+{
+  "name": "Cosmo Dumplings POS",
+  "description": "A modern, slick Point of Sale system for Cosmo Dumplings Restaurant featuring inventory management, customer database, order history, secure PIN access, and AI-powered insights.",
+  "requestFramePermissions": []
+}
